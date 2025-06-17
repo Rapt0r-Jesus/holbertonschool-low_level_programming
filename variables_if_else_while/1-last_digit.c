@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: Prints whether a random number is greater than 5, equal to 0,
- * or less than 6 and not 0.
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Description: Prints whether a random number is greater than 5, equal to 0,
+* or less than 6 and not 0.
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
