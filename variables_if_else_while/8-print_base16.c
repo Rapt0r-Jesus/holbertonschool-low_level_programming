@@ -21,8 +21,11 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'j'; letter++)
 	{
-	putchar ('\n');
+	putchar (letter);
 	}
+
+	putchar ('\n');
+
 
 	return (0);
 }
