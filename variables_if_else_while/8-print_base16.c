@@ -16,10 +16,10 @@ int main(void)
 
 	for (num = '0'; num <= '9'; num++)
 	{
-	putchar (0 + num);
+	putchar (num);
 	}
 
-	for (letter = 'a'; letter <= 'j'; letter++)
+	for (letter = 'a'; letter <= 'f'; letter++)
 	{
 	putchar (letter);
 	}
