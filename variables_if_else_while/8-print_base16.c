@@ -11,12 +11,17 @@
 int main(void)
 
 {
-	char num;
+	int num;
+	char letter;
 
 	for (num = 0; num <= 16; num++)
 	{
-	putchar(num);
+	putchar (0 + num);
 	}
-	putchar('\n');
+
+	for (letter = 'a'; letter <= 'j'; letter++)
+	{
+	putchar ('\n');
+	}
 	return (0);
 }
