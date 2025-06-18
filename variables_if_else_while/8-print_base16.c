@@ -15,8 +15,8 @@ int main(void)
 
 	for (num = 0; num <= 15; num++)
 	{
-	putchar("%x", num);
+	putchar(num);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
