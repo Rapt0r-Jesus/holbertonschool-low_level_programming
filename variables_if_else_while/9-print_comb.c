@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: program that prints all possible combinations of single-digit numbers.
+ * Description: program that prints all possible combinations of s.
  *
  * Return: Always 0 (Success)
  */
@@ -20,9 +20,9 @@ int main(void)
 	{
 	putchar(',');
 	putchar(' ');
-        }
-    }
+	}
+}
 
-    putchar('\n');
-    return (0);
+	putchar('\n');
+	return (0);
 }
