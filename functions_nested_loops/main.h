@@ -1,1 +1,5 @@
-"this is main.h"
+#ifndef main.h
+#define main.h
+
+void print_alphabet(void)
+#ifndef
