@@ -1,14 +1,16 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
+
 /**
- * print_alphabet - Prints the alphabet in lowercase followed by a new line
- *
- * Description: Uses _putchar to print each character.
- * Only _putchar is allowed and used only twice (through a loop or string).
- *
- * Return: void
- */
+* print_alphabet - Prints the alphabet in lowercase followed by a new line
+*
+* Description: Uses _putchar to print each character.
+* Only _putchar is allowed and used only twice (through a loop or string).
+*
+* Return: void
+*/
+
 void print_alphabet(void)
 
 {
@@ -16,9 +18,9 @@ void print_alphabet(void)
 
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		_putchar (l);
+	_putchar (l);
 	}
 	{
-		_putchar ('\n');
+	_putchar ('\n');
 	}
 }                     
