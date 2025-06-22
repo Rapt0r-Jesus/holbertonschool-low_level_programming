@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * print_last_digit - Affiche le dernier chiffre d'un entier
+ * @x: L'entier dont on veut afficher le dernier chiffre
+ *
+ * Return: Le dernier chiffre de l'entier
+ */
+
 int print_last_digit(int x)
 
 {
