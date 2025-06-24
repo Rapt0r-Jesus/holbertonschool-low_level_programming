@@ -2,11 +2,12 @@
 #include "main.h"
 
 /**
- * print_diagonal - Draws a diagonal line on the terminal
- * @n: The number of times the character '\' should be printed
+ * print_square - Prints a square using the '#' character
+ * @size: The size of the square
  *
- * Description: For n > 0, prints '\' n times with increasing indentation.
- * If n is 0 or less, only a newline is printed.
+ * Description: Prints a square of '#' characters with
+ * a size of 'size' x 'size'. If size is 0 or less,
+ * only a new line is printed.
  */
 
 void print_square(int size)
