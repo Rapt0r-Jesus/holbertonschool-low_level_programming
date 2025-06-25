@@ -2,14 +2,16 @@
 #include "main.h"
 
 /**
-
-main - Programme FizzBuzz de 1 |  100*,
-Description: Affiche les nombres de 1 |  100.,
-Pour les multiples de 3, affiche "Fizz" |  la place du nombre.,
-Pour les multiples de 5, affiche "Buzz".,
-Pour les multiples des deux, affiche "FizzBuzz".,
-Les valeurs sont séparées par un espace.*,
-Return: 0 (succès)*/
+ * main - Entry point
+ *
+ * Description: Prints numbers from 1 to 100.
+ * For multiples of 3, prints "Fizz" instead of the number.
+ * For multiples of 5, prints "Buzz".
+ * For multiples of both 3 and 5, prints "FizzBuzz".
+ * Numbers are separated by a space.
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
