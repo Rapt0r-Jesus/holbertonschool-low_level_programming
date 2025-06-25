@@ -9,9 +9,7 @@
  * et change la valeur de cet entier à 98.
  */
 
-int main(void);
 void reset_to_98(int *n)
-
 {
 	*n = 98;
 }
