@@ -4,6 +4,7 @@
 /**
  * reset_to_98 - Updates the value of an int to 98 via its pointer.
  * @n: Pointer to an int
+ * sa
  */
 
 int main(void);
