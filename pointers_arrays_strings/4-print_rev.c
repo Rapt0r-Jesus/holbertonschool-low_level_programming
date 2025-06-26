@@ -8,7 +8,7 @@
  * Return: Longueur de la chaîne (int)
  */
 
-int _strlen(char *s)
+void print_rev(char *s)
 {
 	int i = 0;
 
@@ -24,5 +24,4 @@ int _strlen(char *s)
 	}
 
 	_putchar('\n');
-	return (0);
 }
