@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strlen - Retourne la longueur d'une chaîne de caractères
+ * print_rev - Retourne la longueur d'une chaîne de caractères
  * @s: Pointeur vers la chaîne
  *
  * Return: Longueur de la chaîne (int)
