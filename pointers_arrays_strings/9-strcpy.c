@@ -1,8 +1,8 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 
 /**
- * _strcpy - Copies a string including the null terminator
+ * _strcpy - Copies a string (including null terminator)
  * @dest: Destination buffer
  * @src: Source string
  *
@@ -10,5 +10,14 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	return (strcpy(dest, src));
+	int i = 0;
+
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	dest[i] = '\0'; /* Copy the null terminator */
+	return (dest);
 }
