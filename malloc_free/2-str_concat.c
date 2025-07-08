@@ -30,12 +30,10 @@ if (s2 == NULL)
         for (i = 0; i < lenght1; i++)
                 buffer[i] = s1[i];
 
-        s1[lenght1] = '\0';
-
 	for (j = 0; j < lenght2; j++)
-                buffer[j] = s2[j];
+                buffer[lenght1 + j] = s2[j];
 
-        s2[lenght2] = '\0';
+        buffer[lenght1 + lenght2] = '\0';
 
         return (buffer);
 	}
