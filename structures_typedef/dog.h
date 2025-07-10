@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "dog.h"
 
 /**
  * struct dog - a structure representing a dog
