@@ -42,4 +42,5 @@ char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 size_t print_list(const list_t *h);
+size_t list_len(const list_t *h);
 #endif
